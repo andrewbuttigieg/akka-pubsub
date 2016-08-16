@@ -40,8 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Unsubscribe.cs" />
-    <Compile Include="Subscribe.cs" />
+    <Compile Include="ConsoleWriteMessage.cs" />
+    <Compile Include="UnsubscribeMessage.cs" />
+    <Compile Include="SubscribeMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

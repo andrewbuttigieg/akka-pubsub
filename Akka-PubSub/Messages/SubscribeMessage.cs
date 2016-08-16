@@ -1,10 +1,10 @@
 ﻿namespace Messages
 {
-    public class Unsubscribe
+    public class SubscribeMessage
     {
         public string Name { get; private set; }
 
-        public Unsubscribe(string name)
+        public SubscribeMessage(string name)
         {
             Name = name;
         }
