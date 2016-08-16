@@ -12,7 +12,7 @@ namespace Actors
 
             Receive<ConsoleWriteMessage>(message =>
             {
-                Console.WriteLine($"Received message {message.Message}.");
+                Console.WriteLine($"Received message \"{message.Message}\" as actor {Self.Path}.");
             });
         }
     }
