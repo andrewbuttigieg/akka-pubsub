@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka-PubSub", "Akka-PubSub\Akka-PubSub.csproj", "{D00342A9-7EFF-4D48-8C8C-246B30DFB559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{84717F8A-5922-406A-98C0-89C013D37BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actors", "Actors\Actors.csproj", "{D7E43B1A-8D39-4116-8FBD-3D43CED1F836}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D00342A9-7EFF-4D48-8C8C-246B30DFB559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00342A9-7EFF-4D48-8C8C-246B30DFB559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00342A9-7EFF-4D48-8C8C-246B30DFB559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00342A9-7EFF-4D48-8C8C-246B30DFB559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84717F8A-5922-406A-98C0-89C013D37BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84717F8A-5922-406A-98C0-89C013D37BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84717F8A-5922-406A-98C0-89C013D37BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84717F8A-5922-406A-98C0-89C013D37BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E43B1A-8D39-4116-8FBD-3D43CED1F836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E43B1A-8D39-4116-8FBD-3D43CED1F836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E43B1A-8D39-4116-8FBD-3D43CED1F836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E43B1A-8D39-4116-8FBD-3D43CED1F836}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
