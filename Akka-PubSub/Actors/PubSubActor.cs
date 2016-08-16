@@ -20,6 +20,10 @@ namespace Actors
 
             Receive<Unsubscribe>(unsub =>
             {
+                if (subs.ContainsKey(unsub.Name))
+                {
+                    subs.Remove(unsub.Name);
+                }
             });
         }
     }
