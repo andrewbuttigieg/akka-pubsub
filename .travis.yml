@@ -1,0 +1,5 @@
+language: csharp
+script:
+  - xbuild /p:Configuration=Debug Akka-PubSub/Akka-PubSub.sln
+before_script:
+  - nuget restore Akka-PubSub/Akka-PubSub.sln
